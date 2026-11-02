@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">venvprune</title>
+  <desc id="desc">Find old Python environments. Clear space with confidence.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#101c20"/>
+      <stop offset="1" stop-color="#142d28"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#b2e7c8" stroke-opacity=".06"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="360" rx="18" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="18" fill="url(#grid)"/>
+  <circle cx="1010" cy="180" r="117" fill="none" stroke="#82d6a8" stroke-opacity=".16"/>
+  <circle cx="1010" cy="180" r="86" fill="none" stroke="#82d6a8" stroke-opacity=".25"/>
+  <rect x="934" y="122" width="152" height="116" rx="12" fill="#203c33" stroke="#80d4a5" stroke-opacity=".6"/>
+  <path d="M958 151l18 15-18 15m30 1h34" fill="none" stroke="#a6efc2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M1026 205c0-24 13-38 37-43-1 23-13 39-37 43zm0 0c-2-13-8-21-19-26" fill="#87d8a8" stroke="#87d8a8" stroke-width="4" stroke-linecap="round"/>
+  <text x="78" y="103" fill="#91d8ae" font-family="monospace" font-size="15" font-weight="700" letter-spacing="3">PYTHON ENVIRONMENT CLEANUP</text>
+  <text x="72" y="188" fill="#f2faf4" font-family="monospace" font-size="72" font-weight="700" letter-spacing="-3">venv<tspan fill="#91e2ad">prune</tspan></text>
+  <text x="78" y="238" fill="#c0d3c8" font-family="sans-serif" font-size="24">Find old environments. Clear space with confidence.</text>
+  <text x="78" y="300" fill="#8fa99b" font-family="monospace" font-size="15">SCAN  /  REVIEW  /  REMOVE</text>
+</svg>

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "venvprune"
+version = "0.1.0"
+description = "Interactively find and remove Python virtual environments"
+authors = [{name = "gokserpirik"}]
+readme = "README.pypi.md"
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = ["questionary>=2,<3"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Environment :: Console",
+    "Topic :: System :: Systems Administration",
+]
+
+[project.urls]
+Repository = "https://github.com/gokserpirik/venvprune"
+
+[project.scripts]
+venvprune = "venvprune:main"
+
+[tool.setuptools]
+py-modules = ["venvprune"]
